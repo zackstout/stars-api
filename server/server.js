@@ -8,8 +8,12 @@ var wiki = require("node-wikipedia");
 
 var constellations = [];
 
+
 wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(response) {
 	// console.log(response.text['*']);
+
+  var allStars = [];
+
   var txt = response.text['*'];
 
   var start = txt.indexOf('style="width:25%;text-align:left;vertical-align:top;');
@@ -37,12 +41,44 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
         var rows = short.split('<tr>');
         rows.shift();
         rows.shift();
-        console.log(rows);
+        // console.log(rows);
+
+        // var cells = [];
+
+        rows.forEach(function(row) {
+          var star = {};
+          var name, visMag, absMag, distance, notes, rightAsc, declin;
+          var cells = row.split('<td>');
+          // console.log(cells);
+
+          name = cells[1].slice(cells[1].indexOf('title'), cells[1].indexOf('>'));
+          visMag = cells[10];
+          absMag = cells[11];
+          distance = cells[12];
+          notes = cells[13];
+          rightAsc = cells[8];
+          declin = cells[9];
+
+          star.name = name;
+          star.absMag = absMag;
+          star.distance = distance;
+          star.notes = notes;
+          star.rightAsc = rightAsc;
+          star.declin = declin;
+
+          console.log("STAR", star);
+
+          allStars.push(star);
+        });
 
       });
     }
+
   });
+  console.log("all the stars:", allStars);
+
 });
+
 
 // var query = "Lists of stars by constellation";
 // var options = {query: query, format: "html", summaryOnly: false};
