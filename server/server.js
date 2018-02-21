@@ -32,7 +32,13 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
   constellations.forEach(function(con, ind) {
     if (ind == 4) {
       wiki.page.data("List_of_stars_in_" + con, {content: true}, function(resp) {
-        console.log("RESPONSE: ", resp.text['*']);
+        var short = resp.text['*'].slice(0, 5500);
+        // console.log("RESPONSE: ", short);
+        var rows = short.split('<tr>');
+        rows.shift();
+        rows.shift();
+        console.log(rows);
+
       });
     }
   });
