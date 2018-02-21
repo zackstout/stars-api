@@ -16,7 +16,26 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
   var end = txt.indexOf('<h2><span class="mw-headline" id="Criteria_of_inclusion">');
   var list = txt.slice(start, end);
   var arr = list.split('<li>');
-  console.log(arr);
+  // console.log(arr);
+
+  arr.forEach(function(item, index) {
+    if (index > 0) {
+      var starter = item.indexOf('List of stars in ');
+      var ender = item.indexOf('">');
+      var constellation = item.slice(starter, ender).slice(17);
+      // console.log(constellation);
+      constellations.push(constellation);
+
+    }
+  });
+
+  constellations.forEach(function(con, ind) {
+    if (ind == 4) {
+      wiki.page.data("List_of_stars_in_" + con, {content: true}, function(resp) {
+        console.log("RESPONSE: ", resp.text['*']);
+      });
+    }
+  });
 });
 
 // var query = "Lists of stars by constellation";
