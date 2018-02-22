@@ -7,12 +7,12 @@ var wikipedia = require("wikipedia-js");
 var wiki = require("node-wikipedia");
 
 var constellations = [];
+var allStars = [];
 
 
 wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(response) {
 	// console.log(response.text['*']);
 
-  var allStars = [];
 
   var txt = response.text['*'];
 
@@ -34,7 +34,7 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
   });
 
   constellations.forEach(function(con, ind) {
-    if (ind == 4) {
+    if (true) {
       wiki.page.data("List_of_stars_in_" + con, {content: true}, function(resp) {
         var short = resp.text['*'].slice(0, 5500);
         // console.log("RESPONSE: ", short);
@@ -52,30 +52,58 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
           // console.log(cells);
 
           name = cells[1].slice(cells[1].indexOf('title'), cells[1].indexOf('>'));
-          visMag = cells[10];
-          absMag = cells[11];
-          distance = cells[12];
-          notes = cells[13];
-          rightAsc = cells[8];
-          declin = cells[9];
 
+
+          if (cells.length == 14) {
+            rightAsc = cells[7];
+            declin = cells[8];
+            visMag = cells[9];
+            absMag = cells[10];
+            distance = cells[11];
+            notes = cells[12];
+          }
+          if (cells.length == 13) {
+            rightAsc = cells[6];
+            declin = cells[7];
+            visMag = cells[8];
+            absMag = cells[9];
+            distance = cells[10];
+            notes = cells[11];
+          }
+          if (cells.length == 12) {
+            rightAsc = cells[5];
+            declin = cells[6];
+            visMag = cells[7];
+            absMag = cells[8];
+            distance = cells[9];
+            notes = cells[10];
+          }
+
+
+          // console.log("LENGTH: ", cells.length);
+
+          star.const = con;
           star.name = name;
           star.absMag = absMag;
+          star.visMag = visMag;
           star.distance = distance;
           star.notes = notes;
           star.rightAsc = rightAsc;
           star.declin = declin;
+          star.length = cells.length;
 
-          console.log("STAR", star);
+          // console.log("STAR", star);
 
           allStars.push(star);
         });
+        //finally got it, just have to catch it here:
+        console.log("ALL STARS:", allStars);
+
 
       });
     }
 
   });
-  console.log("all the stars:", allStars);
 
 });
 
