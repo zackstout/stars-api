@@ -28,7 +28,7 @@ var uhOhs = [];
 var goods = [];
 
 function updateDB(star) {
-  // console.log("UPDDATING: ", star);
+  // console.log("UPDATING: ", star);
 
   // YES, that was the key, to get rid of the app.get() rigamarole!!!
 
@@ -41,7 +41,7 @@ function updateDB(star) {
     } else {
       // We connected to the db!!!!! pool -1
       // console.log(star, "HI THERE");
-      var queryText = 'INSERT INTO "stars2" ("name", "vismag", "absmag", "distance", "constellation") VALUES ($1, $2, $3, $4, $5);';
+      var queryText = 'INSERT INTO "stars3" ("name", "vismag", "absmag", "distance", "constellation") VALUES ($1, $2, $3, $4, $5);';
       db.query(queryText, [star.name, star.visMag, star.absMag, star.distance, star.const], function (errorMakingQuery, result) {
         // We have received an error or result at this point
         done(); // pool +1
@@ -57,19 +57,6 @@ function updateDB(star) {
 
 
 function cleanDB() {
-
-  // This will remove all dupes:
-  // select *
-  // from
-  // (
-  // select
-  //     *,
-  //     row_number() over (partition by name order by constellation) as RowNbr
-  //
-  // from stars2
-  // ) source
-  //
-  // where RowNbr = 1;
 
   pool.connect(function (errorConnectingToDb, db, done) {
     if (errorConnectingToDb) {
@@ -176,9 +163,19 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
 
           star.const = con;
           star.name = realName;
-          star.absMag = realAbsMag;
-          star.visMag = realVisMag;
-          star.distance = realDistance;
+
+          // console.log("NOTES:", cells);
+
+          if (realVisMag.indexOf('&') != -1) {
+            star.visMag = realAbsMag;
+            star.absMag = realDistance;
+            star.distance = notes;
+          } else {
+            star.absMag = realAbsMag;
+            star.visMag = realVisMag;
+            star.distance = realDistance;
+          }
+
           star.notes = notes;
           star.rightAsc = rightAsc;
           star.declin = declin;
@@ -202,8 +199,13 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
         });
 
         // OK, don't need to do this again:
-        // goods.forEach(function(good) {
-        //   updateDB(good);
+        goods.forEach(function(good) {
+          updateDB(good);
+          // console.log(good);
+        });
+
+        // uhOhs.forEach(function(oh) {
+        //   updateDB(oh);
         // });
 
       }); // END INNER WIKI CALL
@@ -211,7 +213,7 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
   }); // END LOOP THROUGH CONSTELLATIONS
 }); // END OUTER WIKI CALL
 
-cleanDB();
+// cleanDB();
 // console.log("goods are: ", goods);
 
 // app.use(bodyParser.urlencoded({extended: true}));
