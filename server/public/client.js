@@ -51,46 +51,46 @@ function reorder(arr) {
   var mags = [];
   var orderedMags = [];
   var newStars = [];
-  arr.forEach(function(star) {
+  stars.forEach(function(star) {
     mags.push(star.absmag);
   });
   console.log(mags);
 
   //this is weird but whatever:
-  for (var i=0; i < mags.length; i++) {
+  for (var i=0; i < mags.length + 10; i++) {
     var min = Math.min(mags);
     if (isNaN(min)) {
       var index = mags.findIndex(elem => isNaN(elem));
-      console.log(index);
       if (index > 0) {
+        console.log(index);
+
         mags.splice(index, 1);
+        stars.splice(index, 1);
       }
     }
   }
 
   console.log(mags);
+  // console.log(mags.includes(NaN));
 
-  // while (isNaN(Math.min(mags))) {
-  //   var index = mags.findIndex(elem => isNaN(elem));
-  //   mags.splice(index, 1);
-  // }
-  //
-  // console.log(mags);
-  //
-  // while (mags.length > 0) {
-  //   var min = Math.min(mags);
-  //   var index;
-  //   // Oh, the problem is that indexOf cannot detect presence of NaN -- always returns -1:
-  //   if (isNaN(min)) {
-  //     index = mags.findIndex(elem => isNaN(elem));
-  //     console.log(index);
-  //     mags.splice(index, 1);
-  //   }
-  //
-  //   // orderedMags.push(min);
-  // }
+  // how odd, Math.min can't handle an actual array without the "spread" operator:
+  console.log(Math.min(...mags));
+
+  while (mags.length > 0) {
+    var min = Math.min(...mags);
+    // console.log(min);
+    var index2 = mags.indexOf(min);
+    mags.splice(index2, 1);
+
+    orderedMags.push(min);
+    newStars.push(stars[index2]);
+
+    stars.splice(index2, 1);
+
+  }
 
   console.log(orderedMags);
+  console.log(newStars);
 
 
 }
