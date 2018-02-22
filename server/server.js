@@ -47,19 +47,24 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
 
         rows.forEach(function(row) {
           var star = {};
-          var name, visMag, absMag, distance, notes, rightAsc, declin;
+          var name, realName, visMag, absMag, distance, notes, rightAsc, declin;
           var cells = row.split('<td>');
           // console.log(cells);
 
           name = cells[1].slice(cells[1].indexOf('title'), cells[1].indexOf('>'));
 
+          realName = name.slice(7, name.length - 1);
 
+          // Thanks wikipedia for having tables with different numbers of columns:
           if (cells.length == 14) {
             rightAsc = cells[7];
             declin = cells[8];
             visMag = cells[9];
             absMag = cells[10];
+            realVisMag = cells[9].slice(0, cells[9].indexOf('<'));
+            realAbsMag = cells[10].slice(0, cells[10].indexOf('<'));
             distance = cells[11];
+            realDistance = cells[11].slice(0, cells[11].indexOf('<'));
             notes = cells[12];
           }
           if (cells.length == 13) {
@@ -67,7 +72,10 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
             declin = cells[7];
             visMag = cells[8];
             absMag = cells[9];
+            realVisMag = cells[8].slice(0, cells[8].indexOf('<'));
+            realAbsMag = cells[9].slice(0, cells[9].indexOf('<'));
             distance = cells[10];
+            realDistance = cells[10].slice(0, cells[10].indexOf('<'));
             notes = cells[11];
           }
           if (cells.length == 12) {
@@ -75,18 +83,18 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
             declin = cells[6];
             visMag = cells[7];
             absMag = cells[8];
+            realVisMag = cells[7].slice(0, cells[7].indexOf('<'));
+            realAbsMag = cells[8].slice(0, cells[8].indexOf('<'));
             distance = cells[9];
+            realDistance = cells[9].slice(0, cells[9].indexOf('<'));
             notes = cells[10];
           }
 
-
-          // console.log("LENGTH: ", cells.length);
-
           star.const = con;
-          star.name = name;
-          star.absMag = absMag;
-          star.visMag = visMag;
-          star.distance = distance;
+          star.name = realName;
+          star.absMag = realAbsMag;
+          star.visMag = realVisMag;
+          star.distance = realDistance;
           star.notes = notes;
           star.rightAsc = rightAsc;
           star.declin = declin;
@@ -106,44 +114,6 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
   });
 
 });
-
-
-// var query = "Lists of stars by constellation";
-// var options = {query: query, format: "html", summaryOnly: false};
-// wikipedia.searchArticle(options, function(err, htmlWikiText) {
-//   if(err){
-//     console.log("An error occurred[query=%s, error=%s]", query, err);
-//     return;
-//   }
-//   var list = htmlWikiText.slice(htmlWikiText.indexOf('<ul>'), htmlWikiText.indexOf('</ul>'));
-//   // console.log(list);
-//   var arr = list.split("<li>");
-//   // console.log(arr);
-//   arr.forEach(function(item) {
-//     var conPrep = item.slice(1);
-//     var constellation = item.slice(conPrep.indexOf('>') + 2, conPrep.indexOf('<') + 1);
-//     // console.log(constellation);
-//     constellations.push(constellation);
-//
-//   });
-//
-//   console.log(constellations);
-//   constellations.forEach(function(con) {
-//     // console.log(con);
-//     var query2 = "List of stars in " + con;
-//     // var query2 = "List of stars in Virgo";
-//     var options2 = {query: query2, format: "html", summaryOnly: false};
-//     wikipedia.searchArticle(options2, function (err, html2) {
-//       if (err) {
-//         console.log(err);
-//        return;
-//      } else {
-//       console.log("Const data: ", html2);
-//      }
-//    });
-//
-//   });
-// });
 
 
 // app.use(bodyParser.urlencoded({extended: true}));
