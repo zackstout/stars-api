@@ -13,6 +13,27 @@ $(document).ready(function() {
 
   d3.csv('allthestars.csv', function(data) {
     console.log(data);
+    console.log('======', '−' === '-');
+    data.forEach(function(star) {
+
+      star.vismag = Number(star.vismag);
+
+      if (star.distance.indexOf('<') > 0) {
+        star.distance = Number(star.distance.slice(0, star.distance.indexOf('<')));
+      } else {
+        star.distance = Number(star.distance);
+      }
+
+      // console.log('>' + star.absmag.charCodeAt(0) + '<');
+
+      if (star.absmag.charCodeAt(0) === 8722 || star.absmag[0] === '-') {
+        // console.log('huzzah');
+        star.absmag = - parseFloat(star.absmag.slice(1));
+      }
+      star.absmag = parseFloat(star.absmag);
+
+    });
+    console.log(data);
   });
 
 });
