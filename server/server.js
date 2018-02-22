@@ -3,8 +3,8 @@ var express = require('express');
 var app = express();
 var port = process.env.PORT || 5000;
 
-var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({extended: true}));
+// var bodyParser = require('body-parser');
+// app.use(bodyParser.urlencoded({extended: true}));
 
 // Dependencies:
 var wikipedia = require("wikipedia-js");
@@ -49,6 +49,44 @@ function updateDB(star) {
           console.log('Error making query', errorMakingQuery);
         } else {
           // Send back success!
+        }
+      }); // END QUERY
+    }
+  }); // END POOL
+}
+
+
+function cleanDB() {
+
+  // This will remove all dupes:
+  // select *
+  // from
+  // (
+  // select
+  //     *,
+  //     row_number() over (partition by name order by constellation) as RowNbr
+  //
+  // from stars2
+  // ) source
+  //
+  // where RowNbr = 1;
+
+  pool.connect(function (errorConnectingToDb, db, done) {
+    if (errorConnectingToDb) {
+      // There was an error and no connection was made
+      console.log('Error connecting', errorConnectingToDb);
+    } else {
+      // We connected to the db!!!!! pool -1
+      // console.log(star, "HI THERE");
+      var queryText = 'select * from (select *, row_number() OVER (partition by name) as RowNbr from stars2) source where RowNbr = 1';
+      db.query(queryText, [], function (errorMakingQuery, result) {
+        // We have received an error or result at this point
+        done(); // pool +1
+        if (errorMakingQuery) {
+          console.log('Error making query', errorMakingQuery);
+        } else {
+          // Send back success!
+          console.log("RESULT: ", result);
         }
       }); // END QUERY
     }
@@ -163,18 +201,18 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
           }
         });
 
-        // console.log("whoops: ", uhOhs);
-        // console.log("yay", goods);
-
+        // OK, don't need to do this again:
         // goods.forEach(function(good) {
         //   updateDB(good);
         // });
+
       }); // END INNER WIKI CALL
     }
   }); // END LOOP THROUGH CONSTELLATIONS
 }); // END OUTER WIKI CALL
 
-console.log("goods are: ", goods);
+cleanDB();
+// console.log("goods are: ", goods);
 
 // app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('server/public'));
