@@ -8,6 +8,8 @@ var wiki = require("node-wikipedia");
 
 var constellations = [];
 var allStars = [];
+var uhOhs = [];
+var goods = [];
 
 
 wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(response) {
@@ -107,6 +109,17 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
         //finally got it, just have to catch it here:
         console.log("ALL STARS:", allStars);
 
+        allStars.forEach(function(star) {
+          if (star.visMag.indexOf('&') != -1) {
+            uhOhs.push(star);
+            // console.log("UH OH!");
+          } else {
+            goods.push(star);
+          }
+        });
+
+        // console.log("whoops: ", uhOhs);
+        console.log("yay", goods);
 
       });
     }
