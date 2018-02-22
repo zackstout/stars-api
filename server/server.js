@@ -1,19 +1,63 @@
 
 var express = require('express');
 var app = express();
-// var bodyParser = require('body-parser');
 var port = process.env.PORT || 5000;
+
+var bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({extended: true}));
+
+// Dependencies:
 var wikipedia = require("wikipedia-js");
 var wiki = require("node-wikipedia");
+// var router = express.Router();
+var pg = require('pg');
+var config = {
+  database: 'stars', // the name of the database
+  host: 'localhost', // where is your database?
+  port: 5432, // the port number for you database, 5432 is the default
+  max: 10, // how many connections at one time
+  idleTimeoutMillis: 30000 // Close idle connections to db after
+};
 
+var pool = new pg.Pool(config);
+
+// Global variables:
 var constellations = [];
 var allStars = [];
 var uhOhs = [];
 var goods = [];
 
+function updateDB(star) {
+  // console.log("UPDDATING: ", star);
+
+  // YES, that was the key, to get rid of the app.get() rigamarole!!!
+
+  // wait, why on earth is Postico showing us capping at 1000 stars??? wait, and why are so many of them from the same constellation????
+
+  pool.connect(function (errorConnectingToDb, db, done) {
+    if (errorConnectingToDb) {
+      // There was an error and no connection was made
+      console.log('Error connecting', errorConnectingToDb);
+    } else {
+      // We connected to the db!!!!! pool -1
+      // console.log(star, "HI THERE");
+      var queryText = 'INSERT INTO "stars2" ("name", "vismag", "absmag", "distance", "constellation") VALUES ($1, $2, $3, $4, $5);';
+      db.query(queryText, [star.name, star.visMag, star.absMag, star.distance, star.const], function (errorMakingQuery, result) {
+        // We have received an error or result at this point
+        done(); // pool +1
+        if (errorMakingQuery) {
+          console.log('Error making query', errorMakingQuery);
+        } else {
+          // Send back success!
+        }
+      }); // END QUERY
+    }
+  }); // END POOL
+}
+
 
 wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(response) {
-	// console.log(response.text['*']);
+  // console.log(response.text['*']);
 
 
   var txt = response.text['*'];
@@ -105,10 +149,11 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
           // console.log("STAR", star);
 
           allStars.push(star);
-        });
+        }); // END LOOP THROUGH ROWS
         //finally got it, just have to catch it here:
-        console.log("ALL STARS:", allStars);
+        // console.log("ALL STARS:", allStars);
 
+        // determine whether it's a good one or not:
         allStars.forEach(function(star) {
           if (star.visMag.indexOf('&') != -1) {
             uhOhs.push(star);
@@ -119,15 +164,17 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
         });
 
         // console.log("whoops: ", uhOhs);
-        console.log("yay", goods);
+        // console.log("yay", goods);
 
-      });
+        // goods.forEach(function(good) {
+        //   updateDB(good);
+        // });
+      }); // END INNER WIKI CALL
     }
+  }); // END LOOP THROUGH CONSTELLATIONS
+}); // END OUTER WIKI CALL
 
-  });
-
-});
-
+console.log("goods are: ", goods);
 
 // app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('server/public'));
