@@ -1,0 +1,856 @@
+"id","name","vismag","absmag","distance","constellation","rownbr"
+1208463,"51 Andromedae","3.59","−0.04","174","Andromeda",1
+1208458,"Alpha Andromedae","2.07","−0.30","97","Andromeda",1
+1208461,"Andromeda Galaxy","3.44","","2540000","Andromeda",1
+1208459,"Beta Andromedae","2.07","−1.86","199","Andromeda",1
+1208462,"Delta Andromedae","3.27","0.81","101","Andromeda",1
+1208460,"Gamma Andromedae","2.10","−3.08","355","Andromeda",1
+1208466,"Lambda Andromedae","3.81","1.75","84</td> ","Andromeda",1
+1208465,"Omicron Andromedae","3.62","−3.01","692","Andromeda",1
+1207592,"Alpha Antliae","4.28","−0.97","366</td> ","Antlia",1
+992892,"Delta Antliae","5.52","−3.60",,"Antlia",1
+1021835,"Epsilon Antliae","4.51","−2.15","700","Antlia",1
+1146454,"Eta Antliae","5.23","2.66","106</td> ","Antlia",1
+1093595,"HD 82205","5.49","−1.36","763</td> ","Antlia",1
+968270,"HD 90132","5.34","2.30","132","Antlia",1
+1113408,"HD 96146","5.43","−0.63","530","Antlia",1
+991649,"HR 4049","5.52","−3.60","2173</td> ","Antlia",1
+1148814,"Iota Antliae","4.60","0.67","199","Antlia",1
+928834,"Theta Antliae","4.78","−0.58","384</td> ","Antlia",1
+509643,"U Antliae","5.50","−1.54","836</td> ","Antlia",1
+1031765,"Alpha Apodis","3.83","−1.67","411","Apus",1
+1161610,"Beta Apodis","4.23","0.81","158</td> ","Apus",1
+965558,"Delta1 Apodis","4.68","−2.17","765</td> ","Apus",1
+955495,"Delta2 Apodis","5.27","−1.27","663</td> ","Apus",1
+1101831,"Epsilon Apodis","5.06","−1.08","551</td> ","Apus",1
+1089011,"Eta Apodis","4.89","1.73","140","Apus",1
+1045142,"Gamma Apodis","3.86","0.41","159","Apus",1
+995901,"Iota Apodis","5.39","−2.34","1144</td> ","Apus",1
+1024757,"Kappa¹ Apodis","5.39","−2.34",,"Apus",1
+324068,"R Apodis","5.37","−0.22","428</td> ","Apus",1
+956582,"Zeta Apodis","4.76","−0.14","312","Apus",1
+1100625,"88 Aquarii","3.65","1.14",,"Aquarius",1
+1000150,"Alpha Aquarii","2.95","−3.88","758</td> ","Aquarius",1
+859000,"Beta Aquarii","2.90","−3.47","612</td> ","Aquarius",1
+1119927,"Delta Aquarii","3.27","−0.18","159</td> ","Aquarius",1
+944447,"Epsilon Aquarii","3.78","−0.46","229</td> ","Aquarius",1
+262808,"Lambda Aquarii","3.73","−1.67","391</td> ","Aquarius",1
+1043079,"Zeta Aquarii","3.65","1.14","103</td> ","Aquarius",1
+1054069,"Altair","0.76","2.20","17</td> ","Aquila",1
+1127368,"Beta Aquilae","3.43","0.51",,"Aquila",1
+1091123,"Delta Aquilae","3.36","2.43","50</td> ","Aquila",1
+1054070,"Gamma Aquilae","2.72","−3.03","460</td> ","Aquila",1
+1120358,"Lambda Aquilae","3.43","0.51","125</td> ","Aquila",1
+979367,"Theta Aquilae","3.24","−1.48","287</td> ","Aquila",1
+977861,"Zeta Aquilae","2.99","0.96","83</td> ","Aquila",1
+1088678,"Alpha Arae","2.84","−1.51","242</td> ","Ara",1
+978621,"Beta Arae","2.84","−3.49","603</td> ","Ara",1
+978625,"Delta Arae","3.60","−0.19","187</td> ","Ara",1
+1017078,"Epsilon1 Arae","4.06","−0.79","304</td> ","Ara",1
+1124167,"Eta Arae","3.77","−1.14","313</td> ","Ara",1
+947194,"Gamma Arae","3.31","−4.40","1136</td> ","Ara",1
+947988,"Lambda Arae","4.76","3.06","71","Ara",1
+1054922,"Mu Arae","5.12","4.20","50</td> ","Ara",1
+1162885,"Sigma Arae","4.56","−0.80","385","Ara",1
+1201677,"Theta Arae","3.65","−3.81","1012</td> ","Ara",1
+1018702,"Zeta Arae","3.12","−3.11","574</td> ","Ara",1
+1166172,"35 Arietis","4.65","−0.62","370","Aries",1
+1051693,"39 Arietis","4.52","0.80","181","Aries",1
+982549,"41 Arietis","3.61","0.16","159</td> ","Aries",1
+982547,"Alpha Arietis","2.01","0.48","66</td> ","Aries",1
+948012,"Beta Arietis","2.64","1.33","60</td> ","Aries",1
+1129927,"Delta Arietis","4.35","0.79","168</td> ","Aries",1
+882176,"Gamma Arietis","4.65","−0.62","370","Aries",1
+983361,"HD 20644","4.47","−2.00","640","Aries",1
+1088633,"Beta Aurigae","1.90","−0.10","82</td> ","Auriga",1
+1120323,"Capella (star)","0.08","−0.48","42</td> ","Auriga",1
+1010921,"Delta Aurigae","3.69","−3.22",,"Auriga",1
+1129851,"Epsilon Aurigae","3.03","−5.95","2037</td> ","Auriga",1
+788097,"Eta Aurigae","3.18","−0.96","219</td> ","Auriga",1
+876138,"Iota Aurigae","2.69","−3.29","512</td> ","Auriga",1
+1129849,"Theta Aurigae","2.62","−0.98","173</td> ","Auriga",1
+948739,"Zeta Aurigae","3.69","−3.22","787</td> ","Auriga",1
+667843,"Arcturus","−0.05","−0.31","37</td> ","Boötes",1
+1045362,"Beta Boötis","3.49","−0.64","219</td> ","Boötes",1
+1082304,"Delta Boötis","3.46","0.69","117</td> ","Boötes",1
+976870,"Epsilon Boötis","2.35","−1.69","210</td> ","Boötes",1
+971964,"Eta Boötis","2.68","2.41","37</td> ","Boötes",1
+1017619,"Gamma Boötis","3.04","0.96","85</td> ","Boötes",1
+965211,"Rho Boötis","71053","14","+30°&#160;22′&#160;16.1″","Boötes",1
+963157,"Alpha Caeli","4.44","2.92","66</td> ","Caelum",1
+464434,"Beta Caeli","5.04","2.83","90","Caelum",1
+1093487,"D_28454&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 28454 (page does not exist)","6.06","2.47",,"Caelum",1
+1137544,"D_30080&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 30080 (page does not exist)","5.66","−1.14","748","Caelum",1
+927897,"D_30432&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 30432 (page does not exist)","6.04","1.12","315","Caelum",1
+461484,"D_32453&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 32453 (page does not exist)","6.02","0.77","366","Caelum",1
+1039540,"D_32515&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 32515 (page does not exist)","5.92","0.90","329","Caelum",1
+1175248,"Delta Caeli","5.07","−1.62","710","Caelum",1
+293598,"Gamma¹ Caeli","4.55","0.78","185</td> ","Caelum",1
+1150123,"HD 31093","5.82","1.10","286</td> ","Caelum",1
+1008155,"Nu Caeli","6.06","2.47","171</td> ","Caelum",1
+1121085,"7 Camelopardalis","4.43","−0.88","376","Camelopardalis",1
+1164462,"Alpha Camelopardalis","4.26","−7.38","6936</td> ","Camelopardalis",1
+947168,"BE Camelopardalis","4.39","−2.97","964</td> ","Camelopardalis",1
+1017053,"BK Camelopardalis","4.74","−2.21","801","Camelopardalis",1
+1050842,"Beta Camelopardalis","4.03","−3.40","997","Camelopardalis",1
+947958,"CE Camelopardalis","4.55","−4.85","2470","Camelopardalis",1
+944112,"CS Camelopardalis","4.21","−6.39","4289</td> ","Camelopardalis",1
+1129873,"Gamma Camelopardalis","4.59","−0.47","335","Camelopardalis",1
+1196343,"HD 23089","4.76","1.10","176","Camelopardalis",1
+1125731,"HD 42818","4.76","1.10","176","Camelopardalis",1
+1048541,"M Camelopardalis","4.55","0.76","187","Camelopardalis",1
+1161212,"8 Cancri","5.14","1.09","210","Cancer",1
+1128941,"Alpha Cancri","4.26","0.63","173</td> ","Cancer",1
+1126453,"Beta Cancri","3.53","−1.22","290</td> ","Cancer",1
+980052,"Chi Cancri","5.14","3.84","59","Cancer",1
+570484,"D_71115&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 71115 (page does not exist)","5.13","−0.08","359</td> ","Cancer",1
+1151973,"Delta Cancri","3.94","0.84","136</td> ","Cancer",1
+945541,"Gamma Cancri","4.66","1.23","181</td> ","Cancer",1
+1208239,"Iota Cancri","4.03","−0.77","298</td> ","Cancer",1
+1045526,"Xi Cancri","5.14","3.84","59","Cancer",1
+938391,"Zeta Cancri","4.67","2.63","83</td> ","Cancer",1
+996350,"20 Canum Venaticorum","4.72","0.00","286</td> ","Canes Venatici",1
+1063088,"24 Canum Venaticorum","4.68","0.85","190","Canes Venatici",1
+1146122,"25 Canum Venaticorum","4.82","0.97","192</td> ","Canes Venatici",1
+1142468,"5 Canum Venaticorum","4.77","−0.64","393","Canes Venatici",1
+964959,"AW Canum Venaticorum","4.76","−1.58","604","Canes Venatici",1
+1175065,"Beta Canum Venaticorum","4.24","4.63","27</td> ","Canes Venatici",1
+1053569,"Cor Caroli","2.89","0.25","114</td> ","Canes Venatici",1
+1099048,"HR 5110","4.91","1.67","145</td> ","Canes Venatici",1
+1003711,"Beta Canis Majoris","1.98","−3.95","499</td> ","Canis Major",1
+534753,"Delta Canis Majoris","1.83","−6.87","1791</td> ","Canis Major",1
+1034925,"Epsilon Canis Majoris","1.50","−4.10","431</td> ","Canis Major",1
+1033295,"Eta Canis Majoris","1.98","−3.95",,"Canis Major",1
+1198092,"Sirius","−1.46","1.42","8.6</td> ","Canis Major",1
+1070029,"6 Canis Minoris","4.55","−1.63","560","Canis Minor",1
+974466,"Beta Canis Minoris","2.89","−0.70","170</td> ","Canis Minor",1
+1205267,"Delta1 Canis Minoris","5.22","0.06","351","Canis Minor",1
+1087376,"Epsilon Canis Minoris","4.99","−2.42","988","Canis Minor",1
+1101806,"Eta Canis Minoris","5.22","0.06","351","Canis Minor",1
+1190367,"Gamma Canis Minoris","4.33","−1.10","318","Canis Minor",1
+994454,"HD 66141","4.39","−0.13","261</td> ","Canis Minor",1
+509461,"Procyon","0.34","2.65","11</td> ","Canis Minor",1
+1024727,"Zeta Canis Minoris","5.12","−0.43","420","Canis Minor",1
+1182872,"Alpha² Capricorni","3.58","0.97","109</td> ","Capricornus",1
+307726,"Beta Capricorni","3.05","−2.07","344</td> ","Capricornus",1
+291366,"Delta Capricorni","2.85","2.49","39</td> ","Capricornus",1
+456979,"Gamma Capricorni","3.69","0.54","139</td> ","Capricornus",1
+1139839,"Omega Capricorni","4.12","−2.30","628</td> ","Capricornus",1
+1062091,"Psi Capricorni","4.13","3.30","48</td> ","Capricornus",1
+1035580,"Theta Capricorni","4.08","0.65","158</td> ","Capricornus",1
+1000195,"Zeta Capricorni","3.77","−1.66","398</td> ","Capricornus",1
+1153077,"Beta Carinae","1.67","−0.99","111</td> ","Carina",1
+1030029,"Canopus","−0.72","−5.53","313</td> ","Carina",1
+967481,"Epsilon Carinae","1.86","−4.58","632</td> ","Carina",1
+1166661,"Iota Carinae","2.23","−4.43","692</td> ","Carina",1
+1156536,"Omega Carinae","3.29","−1.99","370</td> ","Carina",1
+1153754,"PP Carinae","3.30","−2.62","497</td> ","Carina",1
+998617,"Theta Carinae","2.74","−2.91","439","Carina",1
+1163368,"Upsilon Carinae","2.92","−5.56","1622</td> ","Carina",1
+938204,"50 Cassiopeiae","3.95","0.47","162</td> ","Cassiopeia",1
+995599,"Alpha Cassiopeiae","2.24","−1.99","228</td> ","Cassiopeia",1
+928277,"Beta Cassiopeiae","2.28","1.17","54</td> ","Cassiopeia",1
+1167529,"Delta Cassiopeiae","2.68","0.26","99</td> ","Cassiopeia",1
+744030,"Epsilon Cassiopeiae","3.35","−2.31","442</td> ","Cassiopeia",1
+1003905,"Eta Cassiopeiae","3.46","4.59","19</td> ","Cassiopeia",1
+1003274,"Gamma Cassiopeiae","2.15","−4.22","613</td> ","Cassiopeia",1
+1182985,"Kappa Cassiopeiae","3.95","0.47",,"Cassiopeia",1
+806216,"Zeta Cassiopeiae","3.69","−2.62","597</td> ","Cassiopeia",1
+1017946,"Alpha Centauri","1.35","5.70","4.36</td> ","Centaurus",1
+1090370,"Beta Centauri","0.61","−5.42","525</td> ","Centaurus",1
+1208410,"Delta Centauri","2.55","−2.81",,"Centaurus",1
+1203349,"Epsilon Centauri","2.29","−3.02","376</td> ","Centaurus",1
+1203350,"Eta Centauri","2.33","−2.55","308</td> ","Centaurus",1
+1054151,"Gamma Centauri","2.20","−0.81","130</td> ","Centaurus",1
+1206681,"Theta Centauri","2.06","0.70","61</td> ","Centaurus",1
+983395,"Zeta Centauri","2.55","−2.81","384</td> ","Centaurus",1
+1083136,"Alpha Cephei","2.45","1.58","49</td> ","Cepheus",1
+1054753,"Beta Cephei","3.23","−3.08","595</td> ","Cepheus",1
+1011536,"Delta Cephei","4.07","−3.47","887</td> ","Cepheus",1
+1124007,"Epsilon Cephei","4.18","2.13","84</td> ","Cepheus",1
+1078233,"Eta Cephei","3.41","2.63","47</td> ","Cepheus",1
+1164326,"Gamma Cephei","3.21","2.51","45</td> ","Cepheus",1
+935745,"Iota Cephei","3.50","0.76","115","Cepheus",1
+977721,"Theta Cephei","4.18","2.13",,"Cepheus",1
+1157406,"Zeta Cephei","3.39","−3.35","726</td> ","Cepheus",1
+1046965,"Alpha Ceti","2.54","−1.61","220</td> ","Cetus",1
+1151325,"Beta Ceti","2.04","−0.30","96</td> ","Cetus",1
+947871,"Eta Ceti","3.46","0.67","118</td> ","Cetus",1
+673410,"Gamma Ceti","3.47","1.47","82</td> ","Cetus",1
+1085432,"Mira","3.04","−2.60","418</td> ","Cetus",1
+1157458,"Tau Ceti","3.49","5.68","12</td> ","Cetus",1
+936300,"Alpha Chamaeleontis","4.05","2.60","63","Chamaeleon",1
+1046840,"Beta Chamaeleontis","4.24","−0.36","271</td> ","Chamaeleon",1
+978395,"D","5.46","0.53","316","Chamaeleon",1
+1086856,"Delta² Chamaeleontis","4.45","−0.79","363","Chamaeleon",1
+1008594,"Epsilon Chamaeleontis","4.88","−0.36","364</td> ","Chamaeleon",1
+979922,"Eta Chamaeleontis","5.46","0.53","316","Chamaeleon",1
+1070296,"Gamma Chamaeleontis","4.11","−1.40","413</td> ","Chamaeleon",1
+394696,"Iota Chamaeleontis","5.34","1.58","184","Chamaeleon",1
+1078159,"Kappa Chamaeleontis","5.04","−0.61","441","Chamaeleon",1
+431831,"Nu Chamaeleontis","5.43","1.59","191","Chamaeleon",1
+932065,"Theta Chamaeleontis","4.34","0.97","154</td> ","Chamaeleon",1
+1196129,"Zeta Chamaeleontis","5.07","−1.02","539</td> ","Chamaeleon",1
+1152160,"Alpha Circini","3.18","2.11","53</td> ","Circinus",1
+311092,"Beta Circini","4.07","1.71","97</td> ","Circinus",1
+1124388,"D_129422&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 129422 (page does not exist)","5.36","2.05","150</td> ","Circinus",1
+1144969,"D_131342&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 131342 (page does not exist)","5.18","1.56","173","Circinus",1
+546041,"D_135591&amp;action=edit&amp;redlink=1""","5.36","2.05",,"Circinus",1
+1061566,"Delta Circini","5.04","−6.42","6392</td> ","Circinus",1
+1059624,"Epsilon Circini","4.85","−0.44","373","Circinus",1
+1206910,"Eta Circini","5.16","0.59","267","Circinus",1
+1024016,"Gamma Circini","4.48","−1.49","509</td> ","Circinus",1
+598695,"Theta Circini","5.08","−1.96","834</td> ","Circinus",1
+1108566,"Alpha Columbae","2.65","−1.93","268</td> ","Columba",1
+1121153,"Beta Columbae","3.12","1.02","86</td> ","Columba",1
+1169711,"Delta Columbae","3.85","−0.46","237","Columba",1
+1194937,"Epsilon Columbae","3.86","−0.79","277","Columba",1
+1009539,"Eta Columbae","3.96","−2.10","531","Columba",1
+1116805,"Gamma Columbae","4.36","−2.73","853","Columba",1
+981818,"Kappa Columbae","4.37","0.63","183","Columba",1
+1131390,"Lambda Columbae","4.88","−0.22","341</td> ","Columba",1
+1105856,"Mu Columbae","5.00","−1.84",,"Columba",1
+1026683,"Omicron Columbae","4.81","2.17","110","Columba",1
+1169584,"Theta Columbae","5.00","−1.84","762</td> ","Columba",1
+1131757,"Xi Columbae","4.97","−0.05","328","Columba",1
+1095037,"11 Comae Berenices","4.72","−0.50","361","Coma Berenices",1
+1047228,"12 Comae Berenices","4.78","0.16","273</td> ","Coma Berenices",1
+1122027,"23 Comae Berenices","4.80","−0.44","365","Coma Berenices",1
+1094570,"35 Comae Berenices","4.89","−0.10","324","Coma Berenices",1
+1114214,"36 Comae Berenices","4.76","−0.05","299","Coma Berenices",1
+147672,"37 Comae Berenices","4.89","−0.10","324","Coma Berenices",1
+1012593,"41 Comae Berenices","4.80","−0.04","303","Coma Berenices",1
+1100474,"Alpha Comae Berenices","4.32","3.54","47</td> ","Coma Berenices",1
+1151486,"Beta Comae Berenices","4.26","4.42","30","Coma Berenices",1
+1131496,"Gamma Comae Berenices","4.35","0.76","170","Coma Berenices",1
+1071278,"Alpha Coronae Australis","4.11","1.11","130</td> ","Corona Australis",1
+603833,"Beta Coronae Australis","4.10","−1.86","508","Corona Australis",1
+1050522,"D_168592&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 168592 (page does not exist)","5.09","−0.85","503","Corona Australis",1
+232142,"Delta Coronae Australis","4.57","0.93","175","Corona Australis",1
+1048970,"Epsilon Coronae Australis","4.83","2.45","98</td> ","Corona Australis",1
+1078043,"Gamma Coronae Australis","4.99","","</td> ","Corona Australis",1
+1149825,"HD 165189","4.92","1.71","143","Corona Australis",1
+1030931,"Lambda Coronae Australis","5.11","1.15","202","Corona Australis",1
+1012826,"Theta Coronae Australis","4.62","−2.50","867","Corona Australis",1
+995542,"Zeta Coronae Australis","4.74","0.99","184","Corona Australis",1
+1203649,"Alpha Coronae Borealis","2.22","0.42","75</td> ","Corona Borealis",1
+1003118,"Beta Coronae Borealis","3.66","0.94","114</td> ","Corona Borealis",1
+920149,"Delta Coronae Borealis","4.59","1.06","165</td> ","Corona Borealis",1
+1015037,"Epsilon Coronae Borealis","4.14","−0.10","230</td> ","Corona Borealis",1
+1166522,"Gamma Coronae Borealis","3.81","0.57","145</td> ","Corona Borealis",1
+1054468,"Tau Coronae Borealis","4.73","2.03","113","Corona Borealis",1
+1053636,"Theta Coronae Borealis","4.14","−0.76","311</td> ","Corona Borealis",1
+255455,"Zeta Coronae Borealis","4.64","−1.17","473","Corona Borealis",1
+997976,"Alpha Corvi","4.02","3.17","48</td> ","Corvus",1
+1107728,"Beta Corvi","2.65","−0.51","140</td> ","Corvus",1
+1126139,"Delta Corvi","2.94","0.79","88</td> ","Corvus",1
+996943,"Epsilon Corvi","3.02","−1.82","303</td> ","Corvus",1
+1101052,"Eta Corvi","4.30","3.00","59</td> ","Corvus",1
+1187933,"Gamma Corvi","2.58","−0.94","165</td> ","Corvus",1
+349196,"HD 107418","5.15","1.24","201</td> ","Corvus",1
+1104155,"VV Corvi","5.17","0.51","278</td> ","Corvus",1
+928334,"Alpha Crateris","4.08","0.44","174</td> ","Crater",1
+1162145,"Beta Crateris","4.46","−0.10","266</td> ","Crater",1
+1096829,"Delta Crateris","3.56","−0.32","195</td> ","Crater",1
+944912,"Epsilon Crateris","4.81","−0.43","364","Crater",1
+673822,"Eta Crateris","5.17","0.46","285","Crater",1
+262511,"Gamma Crateris","4.06","2.01","84</td> ","Crater",1
+1022116,"HD 95808","11","−11°&#160;18′&#160;11.6″","5.51","Crater",1
+959675,"Iota Crateris","5.48","3.32","88</td> ","Crater",1
+677366,"Lambda Crateris","5.08","1.87","143</td> ","Crater",1
+1047829,"Theta Crateris","4.70","−0.15","305","Crater",1
+1130085,"Zeta Crateris","4.71","−0.45","350","Crater",1
+1149746,"Alpha Crucis","1.4","−3.6","321</td> ","Crux",1
+924070,"Beta Crucis","1.25","−3.92","352</td> ","Crux",1
+1052031,"Delta Crucis","2.79","−2.45","364</td> ","Crux",1
+565659,"Epsilon Crucis","3.59","−0.63","228</td> ","Crux",1
+923668,"Gamma Crucis","1.60","−0.56","88</td> ","Crux",1
+1129470,"Mu Crucis","3.59","−0.63",,"Crux",1
+1206700,"Albireo","3.05","−2.31","385</td> ","Cygnus",1
+1205012,"Delta Cygni","2.86","−0.74","171</td> ","Cygnus",1
+1167052,"Deneb","1.25","−8.38","1550</td> ","Cygnus",1
+1166216,"Epsilon Cygni","2.48","0.76","72</td> ","Cygnus",1
+1054994,"Gamma Cygni","2.23","−6.12","1523</td> ","Cygnus",1
+1129132,"Iota Cygni","3.76","0.89","122","Cygnus",1
+1055002,"Kappa Cygni","3.76","0.89","122","Cygnus",1
+1091222,"Tau Cygni","3.74","2.14","68</td> ","Cygnus",1
+1128292,"Xi Cygni","3.72","−4.07","1177","Cygnus",1
+1205014,"Zeta Cygni","3.21","−0.12","151</td> ","Cygnus",1
+1105764,"Alpha Delphini","3.77","−0.57","241</td> ","Delphinus",1
+817653,"Beta Delphini","3.64","1.26","97</td> ","Delphinus",1
+1082294,"Delta Delphini","4.43","0.45","203</td> ","Delphinus",1
+1080160,"Epsilon Delphini","4.03","−1.18","359</td> ","Delphinus",1
+1157298,"Gamma Delphini","5.07","2.68","98","Delphinus",1
+1145808,"Kappa Delphini","5.07","2.68","98","Delphinus",1
+1073685,"Rho Aquilae","4.94","1.58","153</td> ","Delphinus",1
+1205496,"Zeta Delphini","4.64","0.43","227","Delphinus",1
+984085,"Alpha Doradus","3.30","−0.36","176</td> ","Dorado",1
+1203432,"Beta Doradus","3.76","−3.76","1038</td> ","Dorado",1
+1030610,"Delta Doradus","4.34","1.10","145","Dorado",1
+1037072,"Epsilon Doradus","5.06","0.42","277","Dorado",1
+1008159,"Gamma Doradus","4.26","2.72","66</td> ","Dorado",1
+932795,"HD 40409","4.65","2.47","89</td> ","Dorado",1
+951038,"Nu Doradus","5.06","0.42","277","Dorado",1
+240503,"Theta Doradus","4.81","−1.31","546","Dorado",1
+1062185,"Zeta Doradus","4.71","4.38","38","Dorado",1
+1164643,"ta2_Doradus&amp;action=edit&amp;redlink=1"" class=""new"" title=""Eta2 Doradus (page does not exist)","5.01","−1.56","671</td> ","Dorado",1
+1128893,"Beta Draconis","2.79","−2.43","361</td> ","Draco",1
+546455,"Chi Draconis","3.55","4.02","26</td> ","Draco",1
+1051507,"Delta Draconis","3.07","0.63","100</td> ","Draco",1
+497403,"Epsilon Draconis","3.82","−1.23",,"Draco",1
+1054761,"Eta Draconis","2.73","0.58","88</td> ","Draco",1
+1151925,"Gamma Draconis","2.24","−1.04","148</td> ","Draco",1
+1165986,"Iota Draconis","3.29","0.81","102</td> ","Draco",1
+1090163,"Lambda Draconis","3.82","−1.23","334</td> ","Draco",1
+1122467,"Thuban","3.67","−1.21","309</td> ","Draco",1
+1074416,"Xi Draconis","3.73","1.06","111</td> ","Draco",1
+972080,"Zeta Draconis","3.17","−1.92","340</td> ","Draco",1
+947663,"4 Equulei","5.94","3.10","120</td> ","Equuleus",1
+980611,"9 Equulei","5.81","−1.75","1058</td> ","Equuleus",1
+273806,"Alpha Equulei","3.92","0.14","186</td> ","Equuleus",1
+639213,"Beta Equulei","5.16","−0.05","360</td> ","Equuleus",1
+961014,"Delta Equulei","4.47","3.14","60</td> ","Equuleus",1
+1156524,"Epsilon Equulei","5.30","1.40","197</td> ","Equuleus",1
+958752,"Gamma Equulei","4.70","1.97","115</td> ","Equuleus",1
+817614,"HD 199942","5.97","−1.96",,"Equuleus",1
+937516,"HD 202951","5.97","−1.96","1254</td> ","Equuleus",1
+1046025,"Zeta Equulei","5.63","−0.99","688</td> ","Equuleus",1
+1079483,"Achernar","0.45","−2.77","144</td> ","Eridanus",1
+965779,"Beta Eridani","2.78","0.60","89</td> ","Eridanus",1
+1012179,"Chi Eridani","3.52","3.74",,"Eridanus",1
+1076182,"Delta Eridani","3.52","3.74","29</td> ","Eridanus",1
+971319,"Epsilon Eridani","16537","03","−09°&#160;27′&#160;29.9″","Eridanus",1
+248255,"Gamma Eridani","2.97","−1.19","221</td> ","Eridanus",1
+1185740,"Phi Eridani","3.52","3.74",,"Eridanus",1
+1143716,"Tau4 Eridani","3.70","−0.79","258</td> ","Eridanus",1
+1110769,"Theta Eridani","2.88","−0.59","161</td> ","Eridanus",1
+1182508,"Upsilon4 Eridani","3.52","3.74",,"Eridanus",1
+1170587,"Alpha Fornacis","3.85","3.05","46</td> ","Fornax",1
+1055591,"Beta Fornacis","4.45","0.88","169</td> ","Fornax",1
+1193571,"Delta Fornacis","4.99","−1.77","733","Fornax",1
+1020045,"Kappa Fornacis","5.19","3.48","71","Fornax",1
+651515,"Mu Fornacis","5.27","0.23","332","Fornax",1
+1189573,"Nu Fornacis","4.68","−0.54","361</td> ","Fornax",1
+1019482,"Omega Fornacis","4.96","−0.76","453</td> ","Fornax",1
+1156189,"Phi Fornacis","5.13","1.78","153","Fornax",1
+320856,"Pi Fornacis","5.34","0.68","278","Fornax",1
+1069349,"amma2_Fornacis&amp;action=edit&amp;redlink=1"" class=""new"" title=""Gamma2 Fornacis (page does not exist)","5.39","−0.76","554","Fornax",1
+953379,"ta3_Fornacis&amp;action=edit&amp;redlink=1"" class=""new"" title=""Eta3 Fornacis (page does not exist)","5.39","−0.76","554","Fornax",1
+1054775,"Castor (star)","2.88","","","Gemini",1
+948642,"Epsilon Geminorum","3.06","−4.15","903</td> ","Gemini",1
+1151300,"Eta Geminorum","3.31","−1.84","349</td> ","Gemini",1
+934522,"Gamma Geminorum","1.93","−0.60","105</td> ","Gemini",1
+1075662,"Mu Geminorum","2.87","−1.39","232</td> ","Gemini",1
+941094,"Pollux (star)","1.16","1.09","34</td> ","Gemini",1
+908174,"Xi Geminorum","3.35","2.13","57</td> ","Gemini",1
+1005910,"Alpha Gruis","1.73","−0.73","101</td> ","Grus",1
+1114588,"Beta Gruis","2.07","−1.52","170</td> ","Grus",1
+1036342,"Delta1 Gruis","3.97","−0.82","296","Grus",1
+1109062,"Delta2 Gruis","4.12","−0.87","325","Grus",1
+1151224,"Epsilon Gruis","3.49","0.49","130","Grus",1
+1037520,"Gamma Gruis","3.00","−0.97","203</td> ","Grus",1
+936969,"Iota Gruis","3.88","0.11","185","Grus",1
+1112040,"Lambda Gruis","4.47","0.07","247","Grus",1
+1129688,"Mu1 Gruis","4.79","0.26","262","Grus",1
+1078858,"Rho Gruis","4.79","0.26","262","Grus",1
+1151229,"Theta Gruis","4.28","1.23","133","Grus",1
+1118707,"Zeta Gruis","4.11","1.42","112","Grus",1
+980751,"Alpha Herculis","3.31","−2.04","382</td> ","Hercules",1
+1084602,"Beta Herculis","2.78","−0.50","148</td> ","Hercules",1
+932695,"Delta Herculis","3.12","1.21","78</td> ","Hercules",1
+1038777,"Eta Herculis","3.48","0.80","112</td> ","Hercules",1
+543212,"Gamma Herculis","3.74","−0.15","195</td> ","Hercules",1
+941059,"Mu Herculis","3.42","3.80","27</td> ","Hercules",1
+1045444,"Pi Herculis","3.16","−2.10","367</td> ","Hercules",1
+1091798,"Xi Herculis","3.70","0.61","135</td> ","Hercules",1
+938311,"Zeta Herculis","2.81","2.64","35</td> ","Hercules",1
+1134257,"Alpha Horologii","3.85","1.07","117","Horologium",1
+1131452,"Beta Horologii","4.98","0.07","313","Horologium",1
+1205990,"D_22231&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 22231 (page does not exist)","5.40","4.22",,"Horologium",1
+972951,"D_27588&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 27588 (page does not exist)","5.33","1.08","231","Horologium",1
+1038318,"Delta Horologii","4.93","1.28","175","Horologium",1
+683970,"Eta Horologii","5.30","2.06","145","Horologium",1
+1066400,"Iota Horologii","5.40","4.22","56</td> ","Horologium",1
+935274,"Lambda Horologii","5.36","1.91","160","Horologium",1
+1174612,"Mu Horologii","5.12","1.99","138","Horologium",1
+474992,"Nu Horologii","5.25","1.73","165","Horologium",1
+1067833,"R Horologii","4.7","","1004</td> ","Horologium",1
+1201041,"Zeta Horologii","5.21","1.77","159","Horologium",1
+569740,"Alphard","1.99","−1.69","177</td> ","Hydra",1
+1120201,"Epsilon Hydrae","3.38","0.29","135</td> ","Hydra",1
+1148782,"Gamma Hydrae","1.99","−1.69",,"Hydra",1
+567796,"Iota Hydrae","3.90","−0.74","276</td> ","Hydra",1
+946247,"Lambda Hydrae","3.38","0.29",,"Hydra",1
+1119472,"Mu Hydrae","3.38","0.29",,"Hydra",1
+1149390,"Nu Hydrae","1.99","−1.69",,"Hydra",1
+1126390,"Pi Hydrae","3.25","0.79","101</td> ","Hydra",1
+1196196,"Theta Hydrae","3.38","0.29",,"Hydra",1
+970108,"Xi Hydrae","3.38","0.29",,"Hydra",1
+1166801,"Zeta Hydrae","1.99","−1.69",,"Hydra",1
+1050736,"Alpha Hydri","2.86","1.16","71</td> ","Hydrus",1
+1164353,"Beta Hydri","2.79","3.45","24</td> ","Hydrus",1
+1156713,"Delta Hydri","4.08","0.99","135","Hydrus",1
+1013806,"Epsilon Hydri","4.12","0.76","153","Hydrus",1
+977746,"Eta² Hydri","4.68","0.57","217</td> ","Hydrus",1
+944753,"Gamma Hydri","3.26","−0.83","214","Hydrus",1
+937052,"Nu Hydri","4.76","−0.26","329","Hydrus",1
+940410,"Theta Hydri","5.51","−0.52","525","Hydrus",1
+1004068,"Zeta Hydri","4.83","0.05","295","Hydrus",1
+838755,"ambda_Hydri&amp;action=edit&amp;redlink=1"" class=""new"" title=""Lambda Hydri (page does not exist)","5.09","1.10","205","Hydrus",1
+1052333,"ota_Hydri&amp;action=edit&amp;redlink=1"" class=""new"" title=""Iota Hydri (page does not exist)","5.51","−0.52","525","Hydrus",1
+940409,"u_Hydri&amp;action=edit&amp;redlink=1"" class=""new"" title=""Mu Hydri (page does not exist)","5.27","0.51","292","Hydrus",1
+955557,"Alpha Indi","3.11","0.65","101</td> ","Indus",1
+1016660,"Beta Indi","3.67","−2.66","603","Indus",1
+1207063,"Delta Indi","4.40","0.63","185","Indus",1
+970509,"Epsilon Indi","4.69","6.89","12</td> ","Indus",1
+1062813,"Eta Indi","4.51","2.59","79","Indus",1
+965626,"Theta Indi","4.39","2.02","97","Indus",1
+1048913,"Zeta Indi","4.90","−0.57","404","Indus",1
+969236,"micron_Indi&amp;action=edit&amp;redlink=1"" class=""new"" title=""Omicron Indi (page does not exist)","5.52","−0.65","558","Indus",1
+1116407,"ota_Indi&amp;action=edit&amp;redlink=1"" class=""new"" title=""Iota Indi (page does not exist)","5.06","−1.14","567","Indus",1
+447284,"u_Indi&amp;action=edit&amp;redlink=1"" class=""new"" title=""Mu Indi (page does not exist)","5.17","0.02","349","Indus",1
+1043807,"u_Indi&amp;action=edit&amp;redlink=1"" class=""new"" title=""Nu Indi (page does not exist)","5.28","2.98","94","Indus",1
+638997,"1 Lacertae","4.14","−2.28","627","Lacerta",1
+1018173,"10 Lacertae","4.89","−2.67","1058","Lacerta",1
+491038,"11 Lacertae","4.50","−0.33","302","Lacerta",1
+1106540,"2 Lacertae","4.55","−1.42","509","Lacerta",1
+918636,"4 Lacertae","4.55","−4.51","2117","Lacerta",1
+1079206,"5 Lacertae","4.34","−3.42","1164</td> ","Lacerta",1
+843607,"6 Lacertae","4.52","−3.60","1370","Lacerta",1
+1062321,"9 Lacertae","4.64","1.03","172","Lacerta",1
+246531,"Alpha Lacertae","3.76","1.28","102","Lacerta",1
+953798,"Beta Lacertae","4.42","0.84","170","Lacerta",1
+1107615,"HD 211073","4.50","−1.69","563","Lacerta",1
+1088210,"Delta Leonis","2.56","1.32","58</td> ","Leo",1
+934806,"Denebola","2.14","1.92","36</td> ","Leo",1
+414996,"Epsilon Leonis","2.97","−1.46","251</td> ","Leo",1
+978158,"Eta Leonis","3.48","−5.60","2131</td> ","Leo",1
+1181305,"Gamma Leonis","2.37","−0.92","126</td> ","Leo",1
+1060032,"Omicron Leonis","3.52","0.43","135</td> ","Leo",1
+528235,"Regulus","1.36","−0.52","77</td> ","Leo",1
+1015019,"Theta Leonis","3.33","−0.35","178</td> ","Leo",1
+1195895,"Zeta Leonis","3.43","−1.08","260</td> ","Leo",1
+787797,"10 Leonis Minoris","4.54","0.88","176</td> ","Leo Minor",1
+924164,"20 Leonis Minoris","5.36","0.04","377","Leo Minor",1
+245812,"21 Leonis Minoris","4.49","2.26","91","Leo Minor",1
+1155096,"2_Leonis_Minoris&amp;action=edit&amp;redlink=1"" class=""new"" title=""42 Leonis Minoris (page does not exist)","5.36","0.04","377","Leo Minor",1
+426424,"30 Leonis Minoris","4.72","0.71","207","Leo Minor",1
+657003,"37 Leonis Minoris","4.68","−1.13","474</td> ","Leo Minor",1
+1179564,"41 Leonis Minoris","5.08","1.06","207","Leo Minor",1
+491227,"46 Leonis Minoris","3.79","1.41","98</td> ","Leo Minor",1
+1203764,"9_Leonis_Minoris&amp;action=edit&amp;redlink=1"" class=""new"" title=""19 Leonis Minoris (page does not exist)","5.11","2.81","94","Leo Minor",1
+1185650,"Beta Leonis Minoris","4.20","0.95","146</td> ","Leo Minor",1
+1205240,"Alpha Leporis","2.58","−5.40","1283</td> ","Lepus",1
+929053,"Beta Leporis","2.81","−0.63","159</td> ","Lepus",1
+1025044,"Delta Leporis","3.76","1.08","112","Lepus",1
+1063077,"Epsilon Leporis","3.19","−1.02","227","Lepus",1
+1041648,"Eta Leporis","3.71","2.82","49","Lepus",1
+1186631,"Gamma Leporis","3.59","3.83","29</td> ","Lepus",1
+951636,"Iota Leporis","4.36","−1.81","559","Lepus",1
+1161572,"Kappa Leporis","4.36","−1.81","559","Lepus",1
+858521,"Lambda Leporis","4.29","−3.30","1076","Lepus",1
+1141502,"Mu Leporis","3.29","−0.47","184</td> ","Lepus",1
+1134667,"Zeta Leporis","3.55","1.89","70</td> ","Lepus",1
+932104,"16 Librae","4.47","2.24","91","Libra",1
+1193341,"37 Librae","4.61","2.30","94","Libra",1
+1016071,"Alpha Librae","2.75","0.88","77</td> ","Libra",1
+1073157,"Beta Librae","2.61","−0.84","160</td> ","Libra",1
+1015287,"Gamma Librae","3.91","0.56","152</td> ","Libra",1
+1157370,"Iota1 Librae","4.54","−0.77","376","Libra",1
+1035210,"Sigma Librae","3.25","−1.51","292</td> ","Libra",1
+1016873,"Tau Librae","3.66","−2.01","445</td> ","Libra",1
+1191989,"Theta Librae","4.13","0.64","163","Libra",1
+968813,"Upsilon Librae","3.60","−0.28","195</td> ","Libra",1
+570507,"Alpha Lupi","2.30","−3.83","548</td> ","Lupus",1
+1125673,"Beta Lupi","2.68","−3.35","523</td> ","Lupus",1
+1054011,"Delta Lupi","3.22","−2.75","510</td> ","Lupus",1
+1153988,"Epsilon Lupi","3.37","−2.58","504","Lupus",1
+844770,"Eta Lupi","3.42","−2.48","493","Lupus",1
+943324,"Gamma Lupi","2.80","−3.40","567</td> ","Lupus",1
+940464,"Iota Lupi","3.55","−1.61","352","Lupus",1
+943330,"Phi1 Lupi","3.55","−1.61","352","Lupus",1
+1080361,"Zeta Lupi","3.41","0.65","116","Lupus",1
+1155208,"10 Ursae Majoris","3.96","2.88","54","Lynx",1
+945427,"12 Lyncis","4.81","0.58","229","Lynx",1
+1071411,"15 Lyncis","4.35","0.76","170","Lynx",1
+1006564,"2 Lyncis","4.44","1.14","149</td> ","Lynx",1
+1081626,"21 Lyncis","4.61","0.20","249","Lynx",1
+978404,"27 Lyncis","4.78","0.65","218","Lynx",1
+1145854,"31 Lyncis","4.25","−1.13","389</td> ","Lynx",1
+975458,"38 Lyncis","3.82","0.96","122</td> ","Lynx",1
+979924,"Alpha Lyncis","3.14","−1.02","222</td> ","Lynx",1
+1145857,"HD 77912","4.56","−2.03","678","Lynx",1
+933244,"HD 82741","4.81","0.58","229","Lynx",1
+1160937,"Beta Lyrae","3.52","−3.64","881</td> ","Lyra",1
+971857,"Delta2 Lyrae","4.22","−2.98","898</td> ","Lyra",1
+1123787,"Gamma Lyrae","3.25","−3.20","634</td> ","Lyra",1
+671735,"Kappa Lyrae","4.33","0.02","238","Lyra",1
+1108897,"R Lyrae","4.08","−1.07","349</td> ","Lyra",1
+1168309,"Theta Lyrae","4.35","−2.51","769</td> ","Lyra",1
+1081469,"Vega","0.03","0.58","25</td> ","Lyra",1
+1064028,"Zeta1 Lyrae","4.34","0.97","154","Lyra",1
+923773,"Alpha Mensae","5.08","5.05","33","Mensa",1
+1010968,"Beta Mensae","5.30","−1.17","642","Mensa",1
+1172974,"D_22676&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 22676 (page does not exist)","5.67","0.19",,"Mensa",1
+1179191,"Delta Mensae","5.67","0.19","408</td> ","Mensa",1
+1205046,"Eta Mensae","5.47","−1.23","712","Mensa",1
+1058606,"Gamma Mensae","5.18","2.73","101</td> ","Mensa",1
+924193,"Mu Mensae","5.53","−0.32","483","Mensa",1
+1019046,"Pi Mensae","5.65","4.35","59</td> ","Mensa",1
+1025192,"Zeta Mensae","5.61","0.14","404","Mensa",1
+956338,"appa_Mensae&amp;action=edit&amp;redlink=1"" class=""new"" title=""Kappa Mensae (page does not exist)","5.46","0.87","270","Mensa",1
+297595,"heta_Mensae&amp;action=edit&amp;redlink=1"" class=""new"" title=""Theta Mensae (page does not exist)","5.45","0.26","356","Mensa",1
+1020921,"psilon_Mensae&amp;action=edit&amp;redlink=1"" class=""new"" title=""Epsilon Mensae (page does not exist)","5.54","−0.24","466","Mensa",1
+961688,"2 Piscis Austrini","5.20","0.02","354","Microscopium",1
+1197216,"3 Piscis Austrini","5.41","0.01","391","Microscopium",1
+1182650,"Alpha Microscopii","4.89","−0.45","380","Microscopium",1
+1082684,"D_196737&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 196737 (page does not exist)","5.41","0.01","391","Microscopium",1
+1184811,"D_198716&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 198716 (page does not exist)","5.34","−0.17","412","Microscopium",1
+965994,"D_201772&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 201772 (page does not exist)","5.25","2.63","109","Microscopium",1
+998303,"Epsilon Microscopii","4.71","1.19","165","Microscopium",1
+1015648,"Gamma Microscopii","4.67","0.49","223","Microscopium",1
+1033690,"Iota Microscopii","5.11","2.04","134","Microscopium",1
+1190905,"Nu Microscopii","5.12","1.01","216","Microscopium",1
+921264,"Theta1 Microscopii","4.80","1.01","186</td> ","Microscopium",1
+1170442,"Zeta Microscopii","5.32","2.58","115","Microscopium",1
+944341,"13 Monocerotis","4.47","−3.86","1509","Monoceros",1
+1141025,"17 Monocerotis","4.68","−1.12",,"Monoceros",1
+1190330,"18 Monocerotis","4.48","−0.81","373","Monoceros",1
+952629,"28 Monocerotis","4.68","−1.12","472</td> ","Monoceros",1
+1175031,"Alpha Monocerotis","3.94","0.71","144</td> ","Monoceros",1
+1144457,"Beta Monocerotis","4.60","−2.03","691</td> ","Monoceros",1
+1101760,"Delta Monocerotis","4.15","−1.15","375</td> ","Monoceros",1
+1122068,"Epsilon Monocerotis","4.39","1.41","128","Monoceros",1
+1135902,"Gamma Monocerotis","3.99","−2.49","644</td> ","Monoceros",1
+1066958,"S Monocerotis","4.66","−2.82","1022</td> ","Monoceros",1
+1128498,"Zeta Monocerotis","4.36","−4.41","1852","Monoceros",1
+958637,"Alpha Muscae","2.69","−2.17","306</td> ","Musca",1
+990444,"Beta Muscae","3.04","−1.86","311</td> ","Musca",1
+1024794,"Delta Muscae","3.61","1.39","90.8</td> ","Musca",1
+1187317,"Epsilon Muscae","4.06","−0.77","302","Musca",1
+301299,"Eta Muscae","4.79","−0.68","405","Musca",1
+1195206,"Gamma Muscae","3.84","−1.14","324","Musca",1
+1201238,"Lambda Muscae","3.68","0.66","128","Musca",1
+969844,"Mu Muscae","4.75","−0.86","432","Musca",1
+1027023,"D_139129&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 139129 (page does not exist)","5.35","−2.47","1194","Norma",1
+810517,"D_147152&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 147152 (page does not exist)","5.32","−0.84","556","Norma",1
+320210,"Delta Normae","4.73","1.84","123","Norma",1
+497179,"Epsilon Normae","4.46","−0.98","400</td> ","Norma",1
+957075,"Eta Normae","4.65","0.53","218","Norma",1
+1102380,"Gamma1 Normae","4.97","−3.25","1436","Norma",1
+1139443,"Gamma2 Normae","4.01","1.05","127","Norma",1
+425559,"Iota1 Normae","4.63","1.46","140</td> ","Norma",1
+1082204,"Kappa Normae","4.95","−0.69","438","Norma",1
+1160948,"Mu Normae","4.91","−5.91","4657</td> ","Norma",1
+1162520,"QU Normae","5.35","−2.47","1194","Norma",1
+408770,"Theta Normae","5.13","0.35","295","Norma",1
+1073954,"Alpha Octantis","5.13","1.85","148</td> ","Octans",1
+1193615,"Beta Octantis","4.13","0.96","140","Octans",1
+975072,"Delta Octantis","4.31","−0.35","279","Octans",1
+1011822,"Epsilon Octantis","5.09","0.51","268","Octans",1
+995766,"Gamma1 Octantis","5.10","0.53","267","Octans",1
+1172253,"Lambda Octantis","5.27","−0.36","435","Octans",1
+329452,"Nu Octantis","3.76","2.10","69","Octans",1
+950880,"Theta Octantis","4.78","0.63","221","Octans",1
+1004226,"amma3_Octantis&amp;action=edit&amp;redlink=1"" class=""new"" title=""Gamma3 Octantis (page does not exist)","5.29","0.93","242","Octans",1
+984409,"hi_Octantis&amp;action=edit&amp;redlink=1"" class=""new"" title=""Chi Octantis (page does not exist)","5.29","0.87","250","Octans",1
+1006182,"i_Octantis&amp;action=edit&amp;redlink=1"" class=""new"" title=""Xi Octantis (page does not exist)","5.32","−0.35","444","Octans",1
+1204543,"72 Ophiuchi","3.32","−0.03",,"Ophiuchus",1
+1120714,"Alpha Ophiuchi","2.08","1.30","47</td> ","Ophiuchus",1
+1078001,"Beta Ophiuchi","2.76","0.76","82</td> ","Ophiuchus",1
+1178639,"Delta Ophiuchi","2.73","−0.86","170</td> ","Ophiuchus",1
+1040469,"Epsilon Ophiuchi","3.23","0.64","107</td> ","Ophiuchus",1
+1081452,"Eta Ophiuchi","2.43","0.37","84</td> ","Ophiuchus",1
+1048173,"Kappa Ophiuchi","3.19","1.09","86</td> ","Ophiuchus",1
+1037347,"Nu Ophiuchi","3.32","−0.03","153</td> ","Ophiuchus",1
+1076692,"Theta Ophiuchi","3.27","−2.92","563</td> ","Ophiuchus",1
+1191794,"Zeta Ophiuchi","2.54","−3.20","458</td> ","Ophiuchus",1
+1168752,"Alnilam","1.69","−6.38","1342</td> ","Orion",1
+1091210,"Alnitak","1.88","-6.0","817</td> ","Orion",1
+1091208,"Bellatrix","1.64","−2.72","243</td> ","Orion",1
+1091207,"Betelgeuse","0.42","−6.02","643</td> ","Orion",1
+1167898,"Iota Orionis","2.75","−5.30","1325</td> ","Orion",1
+1129970,"Mintaka","2.20","-5.8","916</td> ","Orion",1
+1168757,"Pi³ Orionis","3.19","3.67","26</td> ","Orion",1
+1208411,"Rigel","0.18","−6.69","773</td> ","Orion",1
+1208416,"Saiph","2.07","−4.65","721</td> ","Orion",1
+1038760,"Alpha Pavonis","1.94","−1.81","183</td> ","Pavo",1
+1039387,"Beta Pavonis","3.42","0.29","137","Pavo",1
+809391,"Delta Pavonis","3.55","4.62","20</td> ","Pavo",1
+1167632,"Epsilon Pavonis","3.97","1.41","106","Pavo",1
+751210,"Eta Pavonis","3.61","−1.67","371","Pavo",1
+1075614,"Gamma Pavonis","4.21","4.39","30","Pavo",1
+1010056,"Kappa Pavonis","4.40","−1.71","543</td> ","Pavo",1
+1086126,"Lambda Pavonis","4.22","−4.50","1811</td> ","Pavo",1
+1156659,"Pi Pavonis","4.33","1.19","138","Pavo",1
+643126,"Xi Pavonis","4.35","−1.20","420","Pavo",1
+1046156,"Zeta Pavonis","4.01","−0.03","210","Pavo",1
+976376,"1 Pegasi","3.97","−1.45",,"Pegasus",1
+946377,"Alpha Pegasi","2.49","−0.67","140</td> ","Pegasus",1
+1208303,"Beta Pegasi","2.44","−1.49","199</td> ","Pegasus",1
+979342,"Epsilon Pegasi","2.38","−4.19","672</td> ","Pegasus",1
+983292,"Eta Pegasi","2.93","−1.16","215</td> ","Pegasus",1
+1010925,"Gamma Pegasi","2.83","−2.22","333</td> ","Pegasus",1
+1054883,"Iota Pegasi","3.52","1.16",,"Pegasus",1
+1016244,"Lambda Pegasi","3.97","−1.45","395</td> ","Pegasus",1
+1196328,"Mu Pegasi","3.51","0.74","117</td> ","Pegasus",1
+944854,"Theta Pegasi","3.52","1.16","97</td> ","Pegasus",1
+1158264,"Zeta Pegasi","3.41","−0.62","208</td> ","Pegasus",1
+1205701,"Algol","2.09","−0.18","93</td> ","Perseus",1
+1083227,"Alpha Persei","1.79","−4.50","592</td> ","Perseus",1
+1016211,"Delta Persei","3.01","−3.04","528</td> ","Perseus",1
+1120304,"Epsilon Persei","2.90","−3.19","538</td> ","Perseus",1
+942607,"Eta Persei","3.77","−4.28","1331</td> ","Perseus",1
+1129830,"Gamma Persei","3.00","","","Perseus",1
+1129835,"Kappa Persei","03","+44°&#160;51′&#160;28.4″","3.79","Perseus",1
+1011634,"Nu Persei","3.77","−2.39","556</td> ","Perseus",1
+944824,"Rho Persei","3.32","−1.67","325</td> ","Perseus",1
+981651,"Zeta Persei","2.84","−4.55","982</td> ","Perseus",1
+1054136,"Alpha Phoenicis","2.40","0.52","77</td> ","Phoenix",1
+1204153,"Beta Phoenicis","3.32","−0.60","198","Phoenix",1
+1165362,"Delta Phoenicis","3.93","0.66","147","Phoenix",1
+1129947,"Epsilon Phoenicis","3.88","0.71","140","Phoenix",1
+1164545,"Eta Phoenicis","4.36","0.02","240","Phoenix",1
+1090360,"Gamma Phoenicis","3.41","−0.87","234","Phoenix",1
+1125810,"Iota Phoenicis","4.59","0.19","247","Phoenix",1
+982571,"Kappa Phoenicis","3.93","2.07","77","Phoenix",1
+948839,"Mu Phoenicis","4.59","0.19","247","Phoenix",1
+1166193,"Psi Phoenicis","4.39","−0.58","321","Phoenix",1
+1092030,"Zeta Phoenicis","3.94","−0.73","280","Phoenix",1
+948020,"Alpha Pictoris","3.30","0.83","99","Pictor",1
+948021,"Beta Pictoris","3.85","2.42","63</td> ","Pictor",1
+1167871,"D_38871&amp;action=edit&amp","5.30","0.19","343","Pictor",1
+1207519,"D_39640&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 39640 (page does not exist)","5.16","0.61","264","Pictor",1
+1168726,"D_40292&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 40292 (page does not exist)","5.29","2.58","114","Pictor",1
+1054132,"D_46355&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 46355 (page does not exist)","5.20","0.29","312","Pictor",1
+1204143,"Delta Pictoris","4.72","−3.81","1655</td> ","Pictor",1
+1167017,"Eta2 Pictoris","5.05","−0.76","474","Pictor",1
+1052498,"Gamma Pictoris","4.50","0.87","174","Pictor",1
+1054129,"HD 42540","5.04","−0.37","394","Pictor",1
+1129942,"Lambda Pictoris","5.30","0.19","343","Pictor",1
+1109604,"30 Piscium","4.37","−1.15","415</td> ","Pisces",1
+1079500,"Alpha Piscium","4.33","","139</td> ","Pisces",1
+1145292,"Delta Piscium","4.44","−0.42","305</td> ","Pisces",1
+963594,"Epsilon Piscium","4.27","0.44","190</td> ","Pisces",1
+1074314,"Eta Piscium","3.62","−1.16","294</td> ","Pisces",1
+1085294,"Gamma Piscium","3.70","0.68","131</td> ","Pisces",1
+1014460,"Iota Piscium","4.03","1.47",,"Pisces",1
+962559,"Omega Piscium","4.03","1.47","106</td> ","Pisces",1
+720351,"Omicron Piscium","4.26","−0.23","258</td> ","Pisces",1
+1053842,"Theta Piscium","4.27","0.44",,"Pisces",1
+1070747,"Beta Piscis Austrini","4.29","1.00","148","Piscis Austrinus",1
+1101551,"Delta Piscis Austrini","4.20","0.61","170","Piscis Austrinus",1
+1187416,"Epsilon Piscis Austrini","4.18","−2.61","744","Piscis Austrinus",1
+1006451,"Fomalhaut","1.17","1.74","25</td> ","Piscis Austrinus",1
+669735,"Gamma Piscis Austrini","4.46","0.29","222","Piscis Austrinus",1
+1163347,"Iota Piscis Austrini","4.35","0.36","205","Piscis Austrinus",1
+1154413,"Mu Piscis Austrini","4.50","1.49","130</td> ","Piscis Austrinus",1
+714177,"Tau Piscis Austrini","4.94","3.58","61","Piscis Austrinus",1
+998069,"Theta Piscis Austrini","4.99","−1.06","528","Piscis Austrinus",1
+996048,"Upsilon Piscis Austrini","4.99","−1.06","528","Piscis Austrinus",1
+1193421,"C Puppis","3.34","−4.74",,"Puppis",1
+1012317,"HD 64440","3.34","−4.74",,"Puppis",1
+1166854,"Nu Puppis","3.17","−2.39","423</td> ","Puppis",1
+1053145,"Pi Puppis","2.71","−4.92","1094</td> ","Puppis",1
+1042720,"Rho Puppis","2.83","1.41","63</td> ","Puppis",1
+971452,"Sigma Puppis","3.25","−0.51","184</td> ","Puppis",1
+1112753,"Tau Puppis","2.94","−0.80","183</td> ","Puppis",1
+1166856,"Xi Puppis","3.34","−4.74","1347</td> ","Puppis",1
+1006003,"Zeta Puppis","2.21","−5.95","1399</td> ","Puppis",1
+1200895,"Alpha Pyxidis","3.68","−3.39","845</td> ","Pyxis",1
+818698,"Beta Pyxidis","3.97","−1.41","388","Pyxis",1
+945664,"D_72310&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 72310 (page does not exist)","5.24","0.89","242","Pyxis",1
+818705,"D_73752&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 73752 (page does not exist)","5.05","3.55","65","Pyxis",1
+1203302,"D_75605&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 75605 (page does not exist)","5.19","0.96","229","Pyxis",1
+1054930,"Delta Pyxidis","4.87","0.66","226","Pyxis",1
+982536,"Eta Pyxidis","5.24","0.89","242","Pyxis",1
+1049332,"Gamma Pyxidis","4.02","−0.01","209","Pyxis",1
+948792,"Kappa Pyxidis","4.62","−1.25","487","Pyxis",1
+1200897,"Lambda Pyxidis","4.71","0.98","182","Pyxis",1
+1091987,"Theta Pyxidis","4.71","−1.31","522","Pyxis",1
+1162894,"Zeta Pyxidis","4.86","0.56","236","Pyxis",1
+950045,"Alpha Reticuli","3.33","−0.17","163</td> ","Reticulum",1
+1124237,"Beta Reticuli","3.84","1.41","100</td> ","Reticulum",1
+1038248,"D_27304&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 27304 (page does not exist)","5.45","0.88","267</td> ","Reticulum",1
+1031537,"Delta Reticuli","4.56","−1.50","530</td> ","Reticulum",1
+526830,"Epsilon Reticuli","4.44","3.14","59</td> ","Reticulum",1
+1030099,"Eta Reticuli","5.24","−0.09","380","Reticulum",1
+1017171,"Gamma Reticuli","4.48","−1.41","490</td> ","Reticulum",1
+862807,"Iota Reticuli","4.97","−0.06","331","Reticulum",1
+1025201,"Kappa Reticuli","4.71","3.05","70</td> ","Reticulum",1
+1189524,"Zeta Reticuli","5.24","4.83","39</td> ","Reticulum",1
+1024218,"13 Sagittae","5.33","−1.47","746</td> ","Sagitta",1
+985572,"1_Sagittae&amp;action=edit&amp;redlink=1"" class=""new"" title=""11 Sagittae (page does not exist)","5.54","0.07","404","Sagitta",1
+1010271,"Alpha Sagittae","4.39","−1.42","473</td> ","Sagitta",1
+1166284,"Beta Sagittae","4.39","−1.39","466","Sagitta",1
+1022982,"Delta Sagittae","3.82","−1.87","448","Sagitta",1
+1100787,"Epsilon Sagittae","5.65","0.71","318","Sagitta",1
+959717,"Eta Sagittae","5.09","1.61","162","Sagitta",1
+1105857,"Gamma Sagittae","3.51","−1.11","274","Sagitta",1
+934589,"Zeta Sagittae","5.01","0.01","326","Sagitta",1
+1008846,"_Sagittae&amp;action=edit&amp;redlink=1"" class=""new"" title=""1 Sagittae (page does not exist)","5.65","0.71","318","Sagitta",1
+1208444,"Delta Sagittarii","2.72","−2.14","306</td> ","Sagittarius",1
+1167921,"Epsilon Sagittarii","1.79","−1.44","145</td> ","Sagittarius",1
+1130001,"Eta Sagittarii","3.10","−0.20","149</td> ","Sagittarius",1
+1207580,"Gamma2 Sagittarii","2.98","0.63","96</td> ","Sagittarius",1
+1167926,"Lambda Sagittarii","2.82","0.95","77</td> ","Sagittarius",1
+1206723,"Pi Sagittarii","2.88","−2.77","440</td> ","Sagittarius",1
+1208441,"Sigma Sagittarii","2.05","−2.14","224</td> ","Sagittarius",1
+1129996,"Zeta Sagittarii","2.60","0.42","89</td> ","Sagittarius",1
+1180909,"Antares","0.91","−5.24","553</td> ","Scorpius",1
+1139433,"Beta1 Scorpii","2.62","−3.44","530</td> ","Scorpius",1
+1161709,"Delta Scorpii","2.29","−3.16","401</td> ","Scorpius",1
+620248,"Epsilon Scorpii","2.29","0.78","65</td> ","Scorpius",1
+1015894,"Kappa Scorpii","2.39","−3.38","464</td> ","Scorpius",1
+1109462,"Lambda Scorpii","1.62","−5.05","703</td> ","Scorpius",1
+956306,"Theta Scorpii","1.86","−2.75","272</td> ","Scorpius",1
+1074184,"Upsilon Scorpii","2.62","−3.44",,"Scorpius",1
+1153302,"Alpha Sculptoris","4.30","−2.27","672</td> ","Sculptor",1
+939076,"Beta Sculptoris","4.38","0.69","178","Sculptor",1
+1091888,"Delta Sculptoris","4.59","1.37","143","Sculptor",1
+1155353,"Epsilon Sculptoris","5.29","3.10","89","Sculptor",1
+1166050,"Eta Sculptoris","4.86","−1.27","548","Sculptor",1
+938406,"Gamma Sculptoris","4.41","0.72","179","Sculptor",1
+1153979,"Iota Sculptoris","5.18","0.29","310","Sculptor",1
+546524,"Mu Sculptoris","5.30","0.55","291","Sculptor",1
+1129813,"Pi Sculptoris","5.25","1.13","217","Sculptor",1
+978541,"Theta Sculptoris","5.24","3.55","71","Sculptor",1
+1192773,"Zeta Sculptoris","5.04","−0.93","509","Sculptor",1
+1084234,"450_Scuti&amp;action=edit&amp;redlink=1"" class=""new"" title=""V450 Scuti (page does not exist)","5.38","−2.79",,"Scutum",1
+773872,"Alpha Scuti","3.85","0.21","174</td> ","Scutum",1
+1011872,"Beta Scuti","4.22","−2.41","689","Scutum",1
+986907,"D_171391&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 171391 (page does not exist)","5.12","0.38","290","Scutum",1
+1164753,"D_175156&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 175156 (page does not exist)","5.08","−3.46","1663","Scutum",1
+1070522,"Delta Scuti","4.70","0.91","187</td> ","Scutum",1
+1128490,"Epsilon Scuti","4.88","−1.14","522","Scutum",1
+823957,"Eta Scuti","4.83","0.82","207","Scutum",1
+953472,"Gamma Scuti","4.67","−0.09","291","Scutum",1
+1094382,"R Scuti","5.38","−2.79","1405</td> ","Scutum",1
+1003011,"Zeta Scuti","4.66","0.82","191","Scutum",1
+1208361,"Alpha Serpentis","2.63","0.87","73</td> ","Serpens",1
+1201699,"Beta Serpentis","3.65","0.29","153</td> ","Serpens",1
+1123413,"Delta Serpentis","15","+10°&#160;32′&#160;19.9″","3.80","Serpens",1
+981744,"Epsilon Serpentis","3.71","2.04","70</td> ","Serpens",1
+1018724,"Eta Serpentis","3.23","1.84","62</td> ","Serpens",1
+1087119,"Gamma Serpentis","5.20","3.62","36</td> ","Serpens",1
+914294,"Kappa Serpentis","5.20","3.62",,"Serpens",1
+1168702,"Mu Serpentis","3.54","0.14","156</td> ","Serpens",1
+1054110,"Xi Serpentis","3.54","0.14",,"Serpens",1
+1166925,"1_Sextantis&amp;action=edit&amp;redlink=1"" class=""new"" title=""41 Sextant","5.77","−0.88",,"Sextans",1
+815663,"5_Sextantis&amp;action=edit&amp;redlink=1"" class=""new"" title=""35 Sextantis (page does not exist)","5.77","−0.88","697</td> ","Sextans",1
+1129842,"8_Sextantis&amp;action=edit&amp;redlink=1"" class=""new"" title=""18 Sextantis (page does not exist)","5.64","−0.17","473","Sextans",1
+1129844,"9_Sextantis&amp;action=edit&amp;redlink=1"" class=""new"" title=""19 Sextantis (page does not exist)","5.77","−0.27","527","Sextans",1
+1159726,"Alpha Sextantis","4.48","−0.25","287","Sextans",1
+944830,"Beta Sextantis","5.08","−0.04","345</td> ","Sextans",1
+947930,"D_84607&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 84607 (page does not exist)","5.65","1.03","273","Sextans",1
+1129841,"D_90362&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 90362 (page does not exist)","5.60","0.58","329","Sextans",1
+1167767,"Delta Sextantis","5.19","0.37","300","Sextans",1
+1129840,"Epsilon Sextantis","5.25","1.51","183","Sextans",1
+1208284,"Gamma Sextantis","5.07","0.55","261</td> ","Sextans",1
+1060036,"Alcyone (star)","2.85","−2.41","368</td> ","Taurus",1
+998466,"Aldebaran","0.87","−0.63","65</td> ","Taurus",1
+977415,"Beta Tauri","1.65","−1.37","131</td> ","Taurus",1
+969184,"Epsilon Tauri","3.53","0.15","155</td> ","Taurus",1
+1145076,"Lambda Tauri","3.41","−1.87","370</td> ","Taurus",1
+1178576,"Omicron Tauri","3.61","−0.45","211</td> ","Taurus",1
+1167364,"Theta Tauri","3.40","0.10","149</td> ","Taurus",1
+319663,"Zeta Tauri","2.97","−2.56","417</td> ","Taurus",1
+926546,"Alpha Telescopii","3.49","−0.93","249","Telescopium",1
+1078485,"Delta1 Telescopii","4.92","−2.02","795","Telescopium",1
+1150226,"Delta2 Telescopii","5.07","−2.60","1116","Telescopium",1
+930599,"Epsilon Telescopii","4.52","−0.97","409","Telescopium",1
+876316,"Eta Telescopii","5.03","1.64","155","Telescopium",1
+1177614,"Iota Telescopii","4.88","−0.55","398","Telescopium",1
+968441,"Kappa Telescopii","5.18","0.41","293","Telescopium",1
+432581,"Lambda Telescopii","4.85","−1.21","531","Telescopium",1
+1137650,"Nu Telescopii","5.18","0.41","293","Telescopium",1
+1003622,"Rho Telescopii","5.17","1.57","171","Telescopium",1
+1119061,"Xi Telescopii","4.93","−3.00","1254</td> ","Telescopium",1
+1133484,"Zeta Telescopii","4.10","1.14","127","Telescopium",1
+1020830,"0_Trianguli&amp;action=edit&amp;redlink=1"" class=""new"" title=""10 Trianguli (page does not exist)","5.29","0.13","350","Triangulum",1
+989251,"2_Trianguli&amp;action=edit&amp;redlink=1"" class=""new"" title=""12 Trianguli (page does not exist)","5.29","1.90","155","Triangulum",1
+938566,"4_Trianguli&amp;action=edit&amp;redlink=1"" class=""new"" title=""14 Trianguli (page does not exist)","5.15","−0.25","391","Triangulum",1
+1002976,"5_Trianguli&amp;action=edit&amp;redlink=1"" class=""new"" title=""15 Trianguli (page does not exist)","5.29","1.90","155","Triangulum",1
+1079832,"Alpha Trianguli","3.42","1.95","64</td> ","Triangulum",1
+534636,"Beta Trianguli","3.00","0.09","124</td> ","Triangulum",1
+1138394,"Delta Trianguli","4.84","4.66","35","Triangulum",1
+981117,"Gamma Trianguli","4.03","1.24","118","Triangulum",1
+923105,"Iota Trianguli","4.94","0.08","305</td> ","Triangulum",1
+947384,"_Trianguli&amp;action=edit&amp;redlink=1"" class=""new"" title=""7 Trianguli (page does not exist)","5.25","0.48","293","Triangulum",1
+1009933,"Alpha Trianguli Australis","1.91","−3.62","415</td> ","Triangulum Australe",1
+719090,"Beta Trianguli Australis","2.83","2.38","40","Triangulum Australe",1
+1018403,"D_148291&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 148291 (page does not exist)","5.19","−1.37","669","Triangulum Australe",1
+999169,"Delta Trianguli Australis","3.86","−2.54","621","Triangulum Australe",1
+208141,"Epsilon Trianguli Australis","4.11","0.00","216","Triangulum Australe",1
+429203,"Gamma Trianguli Australis","2.87","−0.87","183","Triangulum Australe",1
+1046047,"Iota Trianguli Australis","5.28","2.25","132</td> ","Triangulum Australe",1
+1085243,"Kappa Trianguli Australis","5.11","−4.70","2991","Triangulum Australe",1
+971269,"P_Trianguli_Australis&amp;action=edit&amp;redlink=1"" class=""new"" title=""LP Trianguli Australis (page does not exist)","5.10","−1.32","626</td> ","Triangulum Australe",1
+1193926,"Zeta Trianguli Australis","4.90","4.49","39","Triangulum Australe",1
+1107650,"Alpha Tucanae","2.87","−1.05","199</td> ","Tucana",1
+1104556,"Beta Tucanae","4.34","","135","Tucana",1
+1193043,"Delta Tucanae","4.50","−0.06","267","Tucana",1
+1166478,"Epsilon Tucanae","4.49","−0.81","374","Tucana",1
+786901,"Eta Tucanae","5.00","1.56","159","Tucana",1
+1102685,"Gamma Tucanae","3.99","2.28","72","Tucana",1
+1176898,"Kappa Tucanae","4.25","2.70","67</td> ","Tucana",1
+706669,"Nu Tucanae","4.91","0.30","273","Tucana",1
+1096182,"Zeta Tucanae","4.23","4.56","28</td> ","Tucana",1
+1207583,"Alpha Ursae Majoris","1.81","−1.08","124</td> ","Ursa Major",1
+1208453,"Beta Ursae Majoris","2.34","0.41","79</td> ","Ursa Major",1
+1207582,"Epsilon Ursae Majoris","1.76","−0.21","81</td> ","Ursa Major",1
+1208452,"Eta Ursae Majoris","1.85","−0.60","101</td> ","Ursa Major",1
+1168792,"Gamma Ursae Majoris","2.41","0.36","84</td> ","Ursa Major",1
+1207590,"Iota Ursae Majoris","3.12","2.29","48</td> ","Ursa Major",1
+1168790,"Mizar (star)","2.23","0.32","83</td> ","Ursa Major",1
+1168794,"Mu Ursae Majoris","3.06","−1.35","249</td> ","Ursa Major",1
+1208455,"Psi Ursae Majoris","3.00","−0.27","147</td> ","Ursa Major",1
+1208464,"Theta Ursae Majoris","3.12","2.29",,"Ursa Major",1
+1042751,"","4.35","0.61",,"Ursa Minor",1
+545850,"5 Ursae Minoris","4.25","−0.87","345","Ursa Minor",1
+1156039,"Beta Ursae Minoris","2.07","−0.87","126</td> ","Ursa Minor",1
+1117414,"Delta Ursae Minoris","4.35","0.61","183</td> ","Ursa Minor",1
+1208247,"Epsilon Ursae Minoris","4.21","−0.92","346</td> ","Ursa Minor",1
+1208246,"Gamma Ursae Minoris","3.04","−2.84","480</td> ","Ursa Minor",1
+1083202,"Polaris","1.97","−3.64","431</td> ","Ursa Minor",1
+945552,"Zeta Ursae Minoris","4.29","−1.02","376</td> ","Ursa Minor",1
+1047807,"Delta Velorum","1.96","0.00","81</td> ","Vela",1
+1047806,"Gamma Velorum","1.83","−5.84","1120</td> ","Vela",1
+1206612,"HD 82668","3.16","−1.15","238</td> ","Vela",1
+1208334,"Kappa Velorum","2.47","−3.62","539</td> ","Vela",1
+947185,"Lambda Velorum","2.21","−3.97","573</td> ","Vela",1
+1087874,"Mu Velorum","2.69","−0.06","116</td> ","Vela",1
+948777,"Omicron Velorum","3.52","−5.34",,"Vela",1
+1050087,"Phi Velorum","3.52","−5.34","1929</td> ","Vela",1
+1129141,"109 Virginis","3.68","",,"Virgo",1
+1129988,"Beta Virginis","3.59","3.40","36</td> ","Virgo",1
+1207566,"Delta Virginis","3.39","−0.57","202</td> ","Virgo",1
+1167064,"Epsilon Virginis","2.85","0.37","102</td> ","Virgo",1
+1129992,"Eta Virginis","3.89","−0.53","250</td> ","Virgo",1
+1205860,"Gamma Virginis","2.74","2.38","39</td> ","Virgo",1
+1092070,"Mu Virginis","3.87","2.51","61</td> ","Virgo",1
+1167072,"Nu Virginis","3.89","−0.53",,"Virgo",1
+1092063,"Spica","0.98","−3.55","262</td> ","Virgo",1
+1205859,"Zeta Virginis","3.38","1.62","73</td> ","Virgo",1
+1059546,"Alpha Volantis","4.00","1.09","124","Volans",1
+1192888,"Beta Volantis","3.77","1.17","108","Volans",1
+1178823,"D_53501&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 53501 (page does not exist)","5.18","0.44","290","Volans",1
+1093193,"D_70514&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 70514 (page does not exist)","5.06","0.27","296","Volans",1
+1064598,"D_76143&amp;action=edit&amp;redlink=1"" class=""new"" title=""HD 76143 (page does not exist)","5.33","−0.06",,"Volans",1
+1140465,"Delta Volantis","3.97","−2.56","660","Volans",1
+1125105,"Epsilon Volantis","4.35","−2.12","560","Volans",1
+1121215,"Eta Volantis","5.28","0.09","356","Volans",1
+1015624,"Gamma Volantis","3.62","0.59","142</td> ","Volans",1
+949964,"Kappa Volantis","5.33","−0.06","390</td> ","Volans",1
+1183153,"Theta Volantis","5.19","0.86","239","Volans",1
+1184780,"Zeta Volantis","3.93","0.86","134","Volans",1
+1161030,"1 Vulpeculae","4.76","−2.47","911","Vulpecula",1
+1050591,"12 Vulpeculae","4.90","−1.49","619</td> ","Vulpecula",1
+970634,"13 Vulpeculae","4.57","−0.64","359","Vulpecula",1
+522368,"15 Vulpeculae","4.66","0.49","222</td> ","Vulpecula",1
+589183,"23 Vulpeculae","4.50","−0.51","328","Vulpecula",1
+1070254,"29 Vulpeculae","4.81","0.73","213","Vulpecula",1
+995144,"30 Vulpe","4.90","−1.49",,"Vulpecula",1
+966328,"31 Vulpeculae","4.56","0.45","216","Vulpecula",1
+973985,"Alpha Vulpeculae","4.44","−0.35","296</td> ","Vulpecula",1
+741540,"HR 7739","4.79","−3.04","1199","Vulpecula",1

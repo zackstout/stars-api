@@ -27,6 +27,13 @@ var allStars = [];
 var uhOhs = [];
 var goods = [];
 
+var starsArray;
+// cleanDB();
+
+app.get('/stars', function(req, res) {
+  res.send(starsArray);
+});
+
 function updateDB(star) {
   // console.log("UPDATING: ", star);
 
@@ -57,7 +64,6 @@ function updateDB(star) {
 
 
 function cleanDB() {
-
   pool.connect(function (errorConnectingToDb, db, done) {
     if (errorConnectingToDb) {
       // There was an error and no connection was made
@@ -65,7 +71,7 @@ function cleanDB() {
     } else {
       // We connected to the db!!!!! pool -1
       // console.log(star, "HI THERE");
-      var queryText = 'select * from (select *, row_number() OVER (partition by name) as RowNbr from stars2) source where RowNbr = 1';
+      var queryText = 'select * from (select *, row_number() OVER (partition by name) as RowNbr from stars3) source where RowNbr = 1';
       db.query(queryText, [], function (errorMakingQuery, result) {
         // We have received an error or result at this point
         done(); // pool +1
@@ -73,7 +79,8 @@ function cleanDB() {
           console.log('Error making query', errorMakingQuery);
         } else {
           // Send back success!
-          console.log("RESULT: ", result);
+          console.log("RESULT: ", result.rows);
+          starsArray = result.rows;
         }
       }); // END QUERY
     }
@@ -200,7 +207,7 @@ wiki.page.data("Lists_of_stars_by_constellation", { content: true }, function(re
 
         // OK, don't need to do this again:
         goods.forEach(function(good) {
-          updateDB(good);
+          // updateDB(good);
           // console.log(good);
         });
 
