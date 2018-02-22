@@ -4,16 +4,6 @@ var orderedStars = [];
 $(document).ready(function() {
   var allStars = new Array();
 
-  // $.ajax({
-  //   type: 'GET',
-  //   url: 'stars'
-  //   // url: 'https://api.giphy.com/v1/gifs/random?api_key=MgySsWcwlCGjN46KaT2DLAWOdyKQsfrk'
-  // }).done(function(response) {
-  //   console.log(response);
-  // }).fail(function(err) {
-  //   console.log(err);
-  // });
-
   d3.csv('allthestars.csv', function(data) {
     // console.log(data);
     // console.log('======', '−' === '-');
@@ -38,7 +28,7 @@ $(document).ready(function() {
     });
 
     console.log(data);
-    console.log(reorder(data));
+    console.log(reorder(data, 'dist'));
 
     // won't be able to access globally because of asynchronicity:
     // allStars = data;
@@ -46,15 +36,21 @@ $(document).ready(function() {
 
 });
 
-function reorder(arr) {
+function reorder(arr, type) {
   var stars = arr;
   var mags = [];
   var orderedMags = [];
   var newStars = [];
   stars.forEach(function(star) {
-    mags.push(star.absmag);
+    if (type == 'abs') {
+      mags.push(star.absmag);
+    } else if (type == 'rel') {
+      mags.push(star.vismag);
+    } else if (type == 'dist') {
+      mags.push(star.distance);
+    }
   });
-  console.log(mags);
+  // console.log(mags);
 
   //this is weird but whatever:
   for (var i=0; i < mags.length + 10; i++) {
@@ -62,7 +58,7 @@ function reorder(arr) {
     if (isNaN(min)) {
       var index = mags.findIndex(elem => isNaN(elem));
       if (index > 0) {
-        console.log(index);
+        // console.log(index);
 
         mags.splice(index, 1);
         stars.splice(index, 1);
@@ -70,27 +66,24 @@ function reorder(arr) {
     }
   }
 
-  console.log(mags);
+  // console.log(mags);
   // console.log(mags.includes(NaN));
 
   // how odd, Math.min can't handle an actual array without the "spread" operator:
-  console.log(Math.min(...mags));
+  // console.log(Math.min(...mags));
 
   while (mags.length > 0) {
-    var min = Math.min(...mags);
+    var min2 = Math.min(...mags);
     // console.log(min);
-    var index2 = mags.indexOf(min);
+    var index2 = mags.indexOf(min2);
     mags.splice(index2, 1);
-
-    orderedMags.push(min);
+    orderedMags.push(min2);
     newStars.push(stars[index2]);
-
     stars.splice(index2, 1);
-
   }
 
   console.log(orderedMags);
   console.log(newStars);
 
-
+  return newStars;
 }
